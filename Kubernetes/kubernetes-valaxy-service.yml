@@ -1,6 +1,6 @@
 ---
 - name: create service for deployment
-  hosts: kubernetes
+  hosts: kubeadmin
   become: true
   user: root
 
