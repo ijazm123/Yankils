@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: valaxy-devops-project
-        image: ijazu/hello
+        image: ijazu/shop:v2
         ports:
         - containerPort: 8080
