@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: valaxy-service
   labels:
-    app: valaxy-devops-project
+    app: valaxy
 spec:
   selector:
-    app: valaxy-devops-project
-  type: LoadBalancer
+    app: valaxy
+  type: NodePort
   ports:
     - port: 8080
       targetPort: 8080
